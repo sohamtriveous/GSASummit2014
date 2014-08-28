@@ -7,9 +7,13 @@ import java.util.List;
  * The object model for the data we are sending through endpoints
  */
 public class DealBean {
-
+    // A list of strings, each represents a deal
     private List<String> mDeals;
 
+    /**
+     * Add a deal to the dealsbean
+     * @param deal
+     */
     public void add(String deal) {
         if (mDeals == null) {
             mDeals = new ArrayList();
@@ -17,14 +21,18 @@ public class DealBean {
         mDeals.add(deal);
     }
 
+    /**
+     * Return all the deals
+     * @return all deals
+     */
     public List<String> getData() {
         return mDeals;
     }
 
-    public void setData(List deals) {
-        mDeals = deals;
-    }
-
+    /**
+     * Helps print this class when necessary
+     * @return the string that represents this class
+     */
     @Override
     public String toString() {
         String result = "";

@@ -40,12 +40,9 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="appengine-endpoints-1.9.6" level="project" />
-    <orderEntry type="library" exported="" name="appengine-endpoints-deps-1.9.6" level="project" />
     <orderEntry type="library" exported="" name="servlet-api-2.5" level="project" />
-    <orderEntry type="library" exported="" name="jackson-databind-2.3.3" level="project" />
+    <orderEntry type="library" exported="" name="gson-2.2.4" level="project" />
     <orderEntry type="library" exported="" name="appengine-api-1.0-sdk-1.9.6" level="project" />
-    <orderEntry type="library" exported="" name="jackson-annotations-2.3.0" level="project" />
-    <orderEntry type="library" exported="" name="jackson-core-2.3.3" level="project" />
   </component>
 </module>
 
