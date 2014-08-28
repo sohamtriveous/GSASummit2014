@@ -12,7 +12,7 @@ GSASummit2014
 Source, Kimonolabs deals URL: https://www.kimonolabs.com/api/3hp54bog?apikey=ZdSnJCoFzxb1gjUS3m9wSx97NrSPDbdQ
 
 ###Sample response:
-
+Original response
 ```json
 {
   "name": "gosf",
