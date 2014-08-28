@@ -67,6 +67,10 @@ is simplified to
 }
 ```
 
+###Local endpoint output on the browser
+![alt text](http://s28.postimg.org/3lnola8u5/browser.png "Output on localhost")
+
+
 ###Android app: /app 
 - Simple android app with a ListActivity
 - Consumes the above endpoint using Cloud Endpoints
