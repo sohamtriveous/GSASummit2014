@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+repositories {
+    mavenLocal()
+}
+
+android {
+    compileSdkVersion 20
+    buildToolsVersion '20.0.0'
+
+    defaultConfig {
+        applicationId "com.triveous.apptest"
+        minSdkVersion 19
+        targetSdkVersion 20
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(path: ':DealsAPI', configuration: 'android-endpoints')
+    compile(group:'com.triveous.dealsapi',name:'myApi',version: 'v1-1.19.0-SNAPSHOT')
+}

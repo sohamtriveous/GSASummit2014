@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="myApi-v1-1.19.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/triveous/dealsapi/myApi/v1-1.19.0-SNAPSHOT/myApi-v1-1.19.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/triveous/dealsapi/myApi/v1-1.19.0-SNAPSHOT/myApi-v1-1.19.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
