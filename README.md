@@ -10,7 +10,8 @@ GSASummit2014
 - Then it creates a simple string based list which in turn becomes the content for this endpoint, this will be consumed by the android app
 
 Kimonolabs deals URL: https://www.kimonolabs.com/api/3hp54bog?apikey=ZdSnJCoFzxb1gjUS3m9wSx97NrSPDbdQ
-Sample response from the above:
+
+###Sample response:
 
 ```json
 {
@@ -57,9 +58,6 @@ Sample response from the above:
         },
         "code": "GOSFGO"
       }
-      .
-      .
-      .
     ]
   }
 }
@@ -74,9 +72,6 @@ is simplified to
   "Myntra Flat 35% Off Coupon With No Minimum Purchase",
   "Minimum Rs. 500 and upto 40% off on mobile phones",
   "Flat 35% Off On Domestic & International Hotels Bookings (max discount of Rs 4000/-)",
-  .
-  .
-  .
  ]
 }
 ```
