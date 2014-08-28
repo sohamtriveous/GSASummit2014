@@ -62,7 +62,7 @@ public class MyActivity extends ListActivity {
      */
     public class GetDealsTask extends AsyncTask<Void, Void, DealBean> {
         /**
-         * The main method that 
+         * The main method that creates an API call to our endpoint
          * @param params
          * @return
          */
